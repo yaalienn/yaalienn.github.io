@@ -1,0 +1,98 @@
+<html lang="en"> 
+<head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Billie Store</title> 
+<style> body { font-family: Arial, sans-serif; text-align: center; }
+    h1 {
+        color: #333;
+    }
+    h2 {
+        color: #555;
+    }
+    select {
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    #cart {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    #cart-items {
+        list-style-type: none;
+        padding: 0;
+    }
+    #cart-items li {
+        margin-bottom: 5px;
+    }
+</style>
+</head> <body> <h1>Добро пожаловать в Billie Store!</h1>
+<h2>Здесь вы можете ознакомиться с ассортиментом одежды различных брендов:</h2>
+
+<h3>Tops:</h3>
+<select id="tops">
+    <option value="t-shirt">T-Shirt</option>
+    <option value="blouse">Blouse</option>
+    <option value="sweater">Sweater</option>
+</select>
+
+<h3>Bottoms:</h3>
+<select id="bottoms">
+    <option value="jeans">Jeans</option>
+    <option value="skirt">Skirt</option>
+    <option value="pants">Pants</option>
+</select>
+
+<h3>Outerwear:</h3>
+<select id="outerwear">
+    <option value="jacket">Jacket</option>
+    <option value="coat">Coat</option>
+    <option value="vest">Vest</option>
+</select>
+
+<h3>Accessories:</h3>
+<select id="accessories">
+    <option value="scarf">Scarf</option>
+    <option value="hat">Hat</option>
+    <option value="gloves">Gloves</option>
+</select>
+
+<button onclick="addToCart()">Add to Cart</button>
+
+<div id="cart">
+    <h2>Shopping Cart:</h2>
+    <ul id="cart-items">
+        <!-- Cart items will be displayed here -->
+    </ul>
+</div>
+
+<script>
+    function addToCart() {
+        const selectedTops = document.getElementById('tops').value;
+        const selectedBottoms = document.getElementById('bottoms').value;
+        const selectedOuterwear = document.getElementById('outerwear').value;
+        const selectedAccessories = document.getElementById('accessories').value;
+
+        const cartItems = document.getElementById('cart-items');
+        const newItem = document.createElement('li');
+        newItem.textContent = `Tops: ${selectedTops}, Bottoms: ${selectedBottoms}, Outerwear: ${selectedOuterwear}, Accessories: ${selectedAccessories}`;
+        cartItems.appendChild(newItem);
+    }
+</script>
+</body> </html>
