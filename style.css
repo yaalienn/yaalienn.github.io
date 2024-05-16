@@ -1,83 +1,65 @@
-/* Основные стили */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f4f4;
-  color: #112;
-}
+#header{
+ background-color: rgba(0, 0, 0, 0.5); 
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%; 
 
-header {
-  background: #112;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
 }
-
-h1 {
-  margin: 0;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-  background-color: #555;
-}
-
-main {
+header a.button {
+  background-color: #fff;
+  color: black;
   padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+font-family: fantasy;
+text-transform: uppercase;
 }
-
+a.button:hover{
+  color: #8D8D8D;
+}
+header p {
+font-family: fantasy;
+font-size: 20px;
+display: inline-block;
+font-weight: 900
+}
+nav u1 {
+display: inline-block;
+float: left;
+}
+nav u2 {
+float: right;
+display: inline-block;
+}
+main {
+clear: both;
+font-family: fantasy;
+text-transform: uppercase;
+padding: 20px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container img {
+ filter: opacity(60%);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-family: fantasy;
+font-size: 100px;
+color: #474747;
+}
 section {
   background: #fff;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  color: #112;
-}
-
-footer {
-  background: #112;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-/* Дополнительные стили для элементов на странице */
-.intro {
-  text-align: center;
-}
-
-.quick-links ul {
-  list-style-type: disc;
-  padding-left: 40px;
-}
-
-.quick-links a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.quick-links a:hover {
-  text-decoration: underline;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
