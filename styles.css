@@ -1,0 +1,43 @@
+#header{
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+header a.button {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+font-family: fantasy;
+text-transform: uppercase;
+}
+a.button:hover{
+  color: #8D8D8D;
+}
+header p {
+font-family: fantasy;
+font-size: 20px;
+display: inline-block;
+font-weight: 900
+}
+nav u1 {
+display: inline-block;
+float: left;
+}
+nav u2 {
+float: right;
+display: inline-block;
+}
+main {
+clear: both;
+font-family: fantasy;
+text-transform: uppercase;
+}
+class.featured-products {
+text-align: center;
+font-size: 30px;
+}
