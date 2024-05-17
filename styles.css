@@ -56,6 +56,10 @@ font-family: fantasy;
 font-size: 100px;
 color: #474747;
 }
+.image-container {
+            display: inline-block;
+            margin-right: 10px;
+        }
 section {
   background: #fff;
   padding: 20px;
