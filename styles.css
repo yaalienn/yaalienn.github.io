@@ -56,10 +56,6 @@ font-family: fantasy;
 font-size: 100px;
 color: #474747;
 }
-.image-container {
-            display: inline-block;
-            margin-right: 10px;
-        }
 section {
   background: #fff;
   padding: 20px;
@@ -67,3 +63,12 @@ section {
   border-radius: 8px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
+body {
+       position: relative;
+       min-height: 100vh;
+   }
+   footer {
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+   }
