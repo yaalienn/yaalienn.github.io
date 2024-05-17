@@ -3,7 +3,6 @@
   margin-bottom: 10px;
   height: 50px;
   width: 100%; 
-
 }
 header a.button {
   background-color: #fff;
@@ -55,5 +54,123 @@ font-family: fantasy;
 font-size: 100px;
 color: #474747;
 }
-input {}
-input: focus {}
+.featured-products img{
+display: inline-block;
+}
+.featured-products p{
+display: inline-block;
+position: absolute;
+left: 30%;
+font-size: 30px;
+}
+.featured-products a.button{
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 35px;
+border: none;
+}
+.featured-products a.button:hover{
+  background-color: #8D8D8D;
+}
+.featured-products a.button:active{
+background-color: #595959;
+}
+.featured-products-2 img{
+display: inline-block;
+}
+.featured-products-2 p{
+display: inline-block;
+position: absolute;
+left: 30%;
+font-size: 30px;
+}
+.featured-products-2 a.button{
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 35px;
+border: none;
+}
+.featured-products-2 a.button:hover{
+  background-color: #8D8D8D;
+}
+.featured-products-2 a.button:active{
+background-color: #595959;
+}
+.featured-products-3 img{
+display: inline-block;
+}
+.featured-products-3 p{
+display: inline-block;
+position: absolute;
+left: 30%;
+font-size: 30px;
+}
+.featured-products-3 a.button{
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 35px;
+border: none;
+}
+.featured-products-3 a.button:hover{
+  background-color: #8D8D8D;
+}
+.featured-products-3 a.button:active{
+background-color: #595959;
+}
+.featured-products-4 img{
+display: inline-block;
+}
+.featured-products-4 p{
+display: inline-block;
+position: absolute;
+left: 30%;
+font-size: 30px;
+}
+.featured-products-4 a.button{
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 35px;
+border: none;
+}
+.featured-products-4 a.button:hover{
+  background-color: #8D8D8D;
+}
+.featured-products-4 a.button:active{
+background-color: #595959;
+}
