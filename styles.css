@@ -55,3 +55,5 @@ font-family: fantasy;
 font-size: 100px;
 color: #474747;
 }
+input {}
+input: focus {}
