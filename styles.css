@@ -174,3 +174,22 @@ border: none;
 .featured-products-4 a.button:active{
 background-color: #595959;
 }
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+body {
+position: relative;
+min-height: 100vh;
+}
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
