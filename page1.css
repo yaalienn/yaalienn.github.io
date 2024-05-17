@@ -77,6 +77,7 @@ position: relative;
 top: -350px;
 left: 35px;
 border: none;
+cousor: pointer;
 }
 .featured-products a.button:hover{
   background-color: #8D8D8D;
