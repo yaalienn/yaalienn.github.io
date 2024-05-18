@@ -1,0 +1,34 @@
+#header{
+ background-color: rgba(0, 0, 0, 0.5); 
+  margin-bottom: 10px;
+  height: 50px;
+  width: 100%; 
+}
+header a.button {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+font-family: fantasy;
+text-transform: uppercase;
+}
+a.button:hover{
+  color: #8D8D8D;
+}
+header p {
+font-family: fantasy;
+font-size: 20px;
+display: inline-block;
+font-weight: 900
+}
+nav u1 {
+display: inline-block;
+float: left;
+}
+nav u2 {
+float: right;
+display: inline-block;
+}
