@@ -36,3 +36,87 @@ main p{
 font-family: fantasy;
 text-transform: uppercase;
 }
+.man-1 a.button {
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 1%;
+border: none;
+}
+.man-1 a.button:hover{
+  background-color: #8D8D8D;
+}
+.man-1 a.button:active{
+background-color: #595959;
+}
+.man-1 p{
+display:inline-block;
+position: absolute;
+left: 55%;
+font-family: fantasy;
+text-transform: uppercase;
+}
+.man-2 a.button {
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 1%;
+border: none;
+}
+.man-2 a.button:hover{
+  background-color: #8D8D8D;
+}
+.man-2 a.button:active{
+background-color: #595959;
+}
+.man-2 p{
+display:inline-block;
+position: absolute;
+left: 55%;
+font-family: fantasy;
+text-transform: uppercase;
+}
+.man-3 a.button {
+background-color: #000;
+color: #fff;
+padding: 20px;
+ text-align: center;
+  text-decoration: none;
+font-size: 25px;
+font-family: fantasy;
+text-transform: uppercase;
+border-radius: 10px;
+position: relative;
+top: -350px;
+left: 1%;
+border: none;
+}
+.man-3 a.button:hover{
+  background-color: #8D8D8D;
+}
+.man-3 a.button:active{
+background-color: #595959;
+}
+.man-3 p{
+display:inline-block;
+position: absolute;
+left: 55%;
+font-family: fantasy;
+text-transform: uppercase;
+}
