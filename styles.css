@@ -32,8 +32,7 @@ nav u2 {
 float: right;
 display: inline-block;
 }
-main {
-clear: both;
+main p{
 font-family: fantasy;
 text-transform: uppercase;
 }
@@ -54,16 +53,7 @@ font-family: fantasy;
 font-size: 100px;
 color: #474747;
 }
-.featured-products img{
-display: inline-block;
-}
-.featured-products p{
-display: inline-block;
-position: absolute;
-left: 30%;
-font-size: 30px;
-}
-.featured-products a.button{
+.man-1 a.button {
 background-color: #000;
 color: #fff;
 padding: 20px;
@@ -75,25 +65,23 @@ text-transform: uppercase;
 border-radius: 10px;
 position: relative;
 top: -350px;
-left: 35px;
+left: 1%;
 border: none;
 }
-.featured-products a.button:hover{
+.man-1 a.button:hover{
   background-color: #8D8D8D;
 }
-.featured-products a.button:active{
+.man-1 a.button:active{
 background-color: #595959;
 }
-.featured-products-2 img{
-display: inline-block;
-}
-.featured-products-2 p{
-display: inline-block;
+.man-1 p{
+display:inline-block;
 position: absolute;
-left: 30%;
-font-size: 30px;
+left: 55%;
+font-family: fantasy;
+text-transform: uppercase;
 }
-.featured-products-2 a.button{
+.man-2 a.button {
 background-color: #000;
 color: #fff;
 padding: 20px;
@@ -105,25 +93,23 @@ text-transform: uppercase;
 border-radius: 10px;
 position: relative;
 top: -350px;
-left: 35px;
+left: 1%;
 border: none;
 }
-.featured-products-2 a.button:hover{
+.man-2 a.button:hover{
   background-color: #8D8D8D;
 }
-.featured-products-2 a.button:active{
+.man-2 a.button:active{
 background-color: #595959;
 }
-.featured-products-3 img{
-display: inline-block;
-}
-.featured-products-3 p{
-display: inline-block;
+.man-2 p{
+display:inline-block;
 position: absolute;
-left: 30%;
-font-size: 30px;
+left: 55%;
+font-family: fantasy;
+text-transform: uppercase;
 }
-.featured-products-3 a.button{
+.man-3 a.button {
 background-color: #000;
 color: #fff;
 padding: 20px;
@@ -135,42 +121,19 @@ text-transform: uppercase;
 border-radius: 10px;
 position: relative;
 top: -350px;
-left: 35px;
+left: 1%;
 border: none;
 }
-.featured-products-3 a.button:hover{
+.man-3 a.button:hover{
   background-color: #8D8D8D;
 }
-.featured-products-3 a.button:active{
+.man-3 a.button:active{
 background-color: #595959;
 }
-.featured-products-4 img{
-display: inline-block;
-}
-.featured-products-4 p{
-display: inline-block;
+.man-3 p{
+display:inline-block;
 position: absolute;
-left: 30%;
-font-size: 30px;
-}
-.featured-products-4 a.button{
-background-color: #000;
-color: #fff;
-padding: 20px;
- text-align: center;
-  text-decoration: none;
-font-size: 25px;
+left: 55%;
 font-family: fantasy;
 text-transform: uppercase;
-border-radius: 10px;
-position: relative;
-top: -350px;
-left: 35px;
-border: none;
-}
-.featured-products-4 a.button:hover{
-  background-color: #8D8D8D;
-}
-.featured-products-4 a.button:active{
-background-color: #595959;
 }
