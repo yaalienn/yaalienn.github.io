@@ -24,13 +24,9 @@ font-size: 20px;
 display: inline-block;
 font-weight: 900
 }
-nav u1 {
+nav {
 display: inline-block;
 float: left;
-}
-nav u2 {
-float: right;
-display: inline-block;
 }
 main p{
 font-family: fantasy;
