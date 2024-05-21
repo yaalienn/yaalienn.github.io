@@ -24,11 +24,11 @@ font-size: 20px;
 display: inline-block;
 font-weight: 900
 }
-nav u1 {
+nav ul {
 display: inline-block;
 float: left;
 }
-nav u2 {
+nav ul {
 float: right;
 display: inline-block;
 }
