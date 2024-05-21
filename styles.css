@@ -37,6 +37,11 @@ hr {
 	box-shadow: 0 20px 20px -20px #333;
 	width: 30%;
 }
+.name p {
+	font-family: fantasy;
+	font-size: 70px;
+	text-align: center;
+}
 main {
 clear: both;
 font-family: fantasy;
